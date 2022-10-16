@@ -25,18 +25,20 @@
             <div id="header-main">
                 <div class="header-content center">
                     <h1 class="logo">
-                        <a href="">BizLand</a>
-                        <p class="dau-cham">.</p>
+                        <a href="">BizLand
+                            <p class="dau-cham">.</p>
+                        </a>
+                        
                     </h1>   
                     
                     <ul id="nav">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Team</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portf">Portfolio</a></li>
+                        <li><a href="#teams">Team</a></li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 Drop Down
                                 <i class="ti-angle-down"></i>
                             </a>      
@@ -63,7 +65,7 @@
                             </ul>
         
                         </li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#contat">Contact</a></li>
                     </ul>
         
                 </div>
@@ -120,7 +122,7 @@
                 </div>
             </div>
             <!-- Phần about -->
-            <div id="body">
+            <div id="about" class="body">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">ABOUT</a>
@@ -295,7 +297,7 @@
                 </div>
             </div>
             <!-- Phần services -->
-            <div id="body" class="services">
+            <div id="service" class="body services">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">Services</a>
@@ -367,7 +369,7 @@
 
             </div>
             <!-- Phần Portfolio -->
-            <div id="body" class="portfolio">
+            <div id="portf" class="body portfolio">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">Portfolio</a>
@@ -385,21 +387,119 @@
                             <li><a href="">WEB</a></li>
                         </ul>
                     </div>
-                    <div class="row portfolio-img">
-                        <img src="/assets/img/port1.jpg" alt="" class="portfolio-img-1 col col-third">
-                        <img src="/assets/img/port2.jpg" alt="" class="portfolio-img-2 col col-third">
-                        <img src="/assets/img/port3.jpg" alt="" class="portfolio-img-3 col col-third">
-                        <img src="/assets/img/port4.jpg" alt="" class="portfolio-img-4 col col-third">
-                        <img src="/assets/img/port5.jpg" alt="" class="portfolio-img-5 col col-third">
-                        <img src="/assets/img/port6.jpg" alt="" class="portfolio-img-6 col col-third">
-                        <img src="/assets/img/port7.jpg" alt="" class="portfolio-img-7 col col-third">
-                        <img src="/assets/img/port8.jpg" alt="" class="portfolio-img-8 col col-third">
-                        <img src="/assets/img/port9.jpg" alt="" class="portfolio-img-9 col col-third">
+                    <div class="row">
+                        <div class="col col-third">
+                            <div class="box-img">
+                                <img src="/assets/img/port1.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>App 1</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>App</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port4.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>App 3</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>App</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col col-third">
+                            <div class="box-img">
+                                <img src="/assets/img/port2.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Web 1</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port5.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Web 2</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port8.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Web 3</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <div class="box-img">
+                                <img src="/assets/img/port3.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>App 2</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>App</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port6.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Card 2</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Card</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port7.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Card 1</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Card</p>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="/assets/img/port9.jpg" alt="" class="portfolio-img mrg-bt-30px">
+                                <div class="box-img-content">
+                                    <h4>Card 3</h4>
+                                    <div class="box-img-icon">
+                                        <i class="ti-plus"></i>
+                                        <i class="ti-link"></i>
+                                    </div>
+                                    <p>Card</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <!-- Phần teams -->
-            <div id="body" class="team">
+            <div id="teams" class="body team">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">TEAM</a>
@@ -467,7 +567,7 @@
                 
             </div>
             <!-- Phần pricing-->
-            <div id="body" class="pricing">
+            <div id="pric" class="body pricing">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">Pricing</a>
@@ -564,7 +664,7 @@
                 
             </div>
             <!-- Phần Frequently Asked question -->
-            <div id="body">
+            <div class="body">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">F.A.Q</a>
@@ -611,7 +711,7 @@
 
             </div>
             <!-- Phần contact -->
-            <div id="body" class="contact">
+            <div id="contat" class="body contact">
                 <div class="container-body center">
                     <div class="content-body">
                         <a href="" class="title-content">Contact</a>
@@ -649,7 +749,7 @@
                     </div>
                     <div class="row">
                         <div class="col col-second">
-                            <img src="/assets/img/map2.jpg" alt="" class="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14899.584618781577!2d105.8407837!3d20.9967994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71752d8f79%3A0xd2ec575c01017afa!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gUXXhu5FjIETDom4gKE5FVSk!5e0!3m2!1svi!2s!4v1665822535162!5m2!1svi!2s" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="col col-second">
                             <div class="box-input">
@@ -691,6 +791,7 @@
                     </div>
                 </div>
             </div>
+        
             <!-- Phần footer -->
             <div id="footer">
                 <div class="box-footer center">
@@ -776,6 +877,7 @@
                     </div>
                 </div>
             </div>
+            
             <div id="footer-bottom">
                 <div class="box-footer-bottom center">
                     <p>
